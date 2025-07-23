@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+selenium  # Nếu dùng Selenium
+webdriver_manager  # Nếu dùng Selenium
