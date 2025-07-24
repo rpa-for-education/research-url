@@ -6,6 +6,7 @@ from datetime import datetime
 # Danh sách URL cần quét
 URLS = [
     'https://easychair.org/cfp/',
+    'https://easychair.org/cfp/random.cgi',
     'https://easychair.org/cfp/area.cgi?area=6',
     'https://easychair.org/cfp/area.cgi?area=15',
     'https://easychair.org/cfp/area.cgi?area=13',
@@ -25,6 +26,30 @@ URLS = [
     'https://easychair.org/cfp/area.cgi?area=2',
     'https://easychair.org/cfp/area.cgi?area=14',
     'https://easychair.org/cfp/area.cgi?area=9',
+    'https://easychair.org/cfp/topic.cgi?tid=670',
+    'https://easychair.org/cfp/topic.cgi?tid=401',
+    'https://easychair.org/cfp/topic.cgi?tid=752',
+    'https://easychair.org/cfp/topic.cgi?tid=26492',
+    'https://easychair.org/cfp/topic.cgi?tid=16901',
+    'https://easychair.org/cfp/topic.cgi?tid=27052',
+    'https://easychair.org/cfp/topic.cgi?tid=16993',
+    'https://easychair.org/cfp/topic.cgi?tid=18115',
+    'https://easychair.org/cfp/topic.cgi?tid=49240',
+    'https://easychair.org/cfp/topic.cgi?tid=3221',
+    'https://easychair.org/cfp/topic.cgi?tid=27610129',
+    'https://easychair.org/cfp/topic.cgi?tid=565064',
+    'https://easychair.org/cfp/topic.cgi?tid=65909',
+    'https://easychair.org/cfp/topic.cgi?tid=6766858',
+    'https://easychair.org/cfp/topic.cgi?tid=1763',
+    'https://easychair.org/cfp/topic.cgi?tid=5691',
+    'https://easychair.org/cfp/topic.cgi?tid=10330',
+    'https://easychair.org/cfp/topic.cgi?tid=72495',
+    'https://easychair.org/cfp/topic.cgi?tid=84867',
+    'https://easychair.org/cfp/topic.cgi?tid=39582319',
+    'https://easychair.org/cfp/topic.cgi?tid=3258657',
+    'https://easychair.org/cfp/topic.cgi?tid=753432',
+    'https://easychair.org/cfp/topic.cgi?tid=37801319',
+    'https://easychair.org/cfp/topic.cgi?tid=67784',
     'https://easychair.org/cfp/country.cgi?cc=vn',
     'https://easychair.org/cfp/country.cgi?cc=cn',
     'https://easychair.org/cfp/country.cgi?cc=us',
@@ -131,9 +156,7 @@ URLS = [
     'https://easychair.org/cfp/country.cgi?cc=uy',
     'https://easychair.org/cfp/country.cgi?cc=uz',
     'https://easychair.org/cfp/country.cgi?cc=ye',
-    'https://easychair.org/cfp/country.cgi?cc=zw',
-    'https://easychair.org/cfp/topic.cgi?tid=670',
-    'https://easychair.org/cfp/random.cgi'
+    'https://easychair.org/cfp/country.cgi?cc=zw'
 ]
 
 # API và headers
